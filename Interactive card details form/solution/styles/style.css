@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+.right{
+    margin: 72px auto;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(278, 68%, 11%);
+    padding-top: 120px;
+    padding-left: 100px;
+    width: 30vh;
+    position: relative;
+    bottom: 75px;
+    right: 180px;
+    height: 80vh;
+}
+.nms{
+    color: #ffff;
+    position: relative;
+    bottom: 55px;
+    left: 10px;
+    display: flex;
+    flex-direction: column;   
+}
+.cvc{
+    padding-left: 300px;
+    position: relative;
+    bottom: 18px;
+}
+.cardno{
+    position: relative;
+    bottom: 80px;
+    left: 90px;
+    color: #ffff;
+    font-size: 20px;
+    text-align: center;
+}
+.left{
+    margin: 25px auto;
+    padding-left: 100px;
+    position: relative;
+    width: 250px;
+    right: 150px;
+    top: 100px;
+    background-color: #ffff;
+    font-family: 'Grotesk','sans-serif';
+    color: hsl(278, 68%, 11%);
+    font-size: 14px;
+}
+.mm{
+    text-align: start;
+}
+.inp{
+    position: relative;
+    left: 40px;
+}
+input{
+    height: 30px;
+    width: 300px;
+}
+.plc{
+    display: flex;
+    justify-content: space-evenly;
+}
+.chck{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pad{
+    position: relative;
+    left: 103px;
+}
+.back{
+    height: 30vh;
+    width: 60vh;
+    padding-left: 70px;
+    border-radius: 10px;
+}
+.front{
+    height: 30vh;
+    width: 60vh;
+    border-radius: 10px;
+}
+.tagcs{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    bottom: 70vh;
+    padding-left: 25px;
+}
+.backcv{
+    color: #ffff;
+    position: relative;
+    left: 60vh;
+    bottom: 100px;
+}
+.btn{
+    width: 358px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: hsl(278, 68%, 11%);
+    color: #ffff;
+    cursor: pointer;
+    position: relative;
+    left: 45px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Form</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+</head>
+<body>
+    <div class="container">
+    <div class="right">
+    <img class="front" src="images/bg-card-front.png" alt="front-img">
+    <p class="cardno">0000   0000   0000   0000</p>
+    <div class="nms">
+        <p>JANE APPLESEED</p>
+        <P class="cvc">00/00</P>
+    </div>
+    <br>
+     <img class="back" src="images/bg-card-back.png" alt="back-img">
+     <p class="backcv">000</p>
+     <img class="tagcs" src="images/card-logo.svg" alt="">
+     </div>
+    <div class="left">
+     <form class="inp">
+        <label>CARDHOLDER NAME</label><br>
+        <input id="cardName" type="text"  placeholder="e.g. Jane Appleseed" required><br><br>
+        <label>CARD NUMBER</label><br>
+        <input id="Number" type="number" placeholder="e.g. 1234 5678 9123 0000" required><br><br>
+        <div class="plc">
+        <label>EXP. DATE (MM/YY)</label><br>
+        <label>CVC</label><br>
+        </div>
+        <div class="chck">
+        <input class="mm" type="checkbox"placeholder="MM/YY"required><br>
+        <input class="mm" type="checkbox"placeholder="MM/YY"required><br>
+        <input class="pad" type="text" placeholder="e.g. 123"><br><br>
+        </div>
+        </form><br><br>
+        <button class="btn">Confirm</button><br>
+    </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
