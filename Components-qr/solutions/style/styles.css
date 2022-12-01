@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+body {
+   
+    background-color: hsl(218, 78%, 86%);
+    font-size: 15px;
+}
+body p{
+    font-size: 12px;
+    color: hsla(213, 15%, 45%, 0.957);
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.bar {
+    background-color: #fff;
+    height: 55vh;
+    width: 39vh;
+    position: relative;
+    left: 72vh;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.qrImg {
+    padding-top: 10px;
+    height: 11rem;
+    width: 13rem;
+}
