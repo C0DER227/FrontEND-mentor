@@ -1,0 +1,120 @@
+ *{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8vh;
+ }
+.hd{
+    font-weight: bolder;
+    font-size: 2rem;
+    padding: 0.8rem;
+}
+li{
+    list-style: none;
+    
+}
+li > a{
+    text-decoration: none;
+    color: grey;
+}
+li >a:hover{
+    color: black;
+    text-decoration: underline;
+}
+.web3{
+    padding: 50px;
+    height: 40vh;
+    width: 100vh;
+}
+h1{
+    color: grey;
+}
+.inner{
+    display: flex;
+    gap: 8vh;
+}
+.btn{
+    background-color: #FF9494;
+    color: #fff;
+    width: 25vh;
+    height: 7vh;
+    position: relative;
+    top: 15vh;
+    right: 50vh;
+    cursor: pointer;
+    border: none;
+}
+.btn:hover{
+    background-color: pink;
+}
+.left{
+    background-color: #150050;
+    position: relative;
+    right: 25vh;
+    top: 8vh;
+    padding: 12px;
+}
+.left>.mainleft{
+    color: gold;
+}
+.left >.par{
+    color: #fff;
+}
+h2{
+    color: #fff;
+    font-size: 3vh;
+    padding-top: 1rem;
+}
+.total{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15vh;
+}
+.pri8{
+    color: black;
+}
+section> div{
+    position: relative;
+    left:30px;
+    top: 30vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fotter{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+}
+.img{
+    height: 100px;
+    width: 100px;
+}
+.retro{
+    float: right;
+    position: relative;
+    top: 3vh;
+    left: 2.5vh;
+}
+.lapy{
+    float: right;
+    position: relative;
+    top: 3vh;
+    left: 2.5vh;
+}
+.game{
+    float: right;
+    position: relative;
+    top: 3vh;
+    left: 2.5vh;
+}
+footer{
+    position: relative;
+    top: 35vh;
+    text-align: center;
+}
