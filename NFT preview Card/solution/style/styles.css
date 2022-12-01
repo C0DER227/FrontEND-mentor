@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit','sans-serif';
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+}
+.card {
+    text-align: center;
+    padding-top: 20px;
+    background-color: hsl(216, 50%, 16%);
+    height: 365px;
+    width: 300px;
+    margin: 72px auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.card h4 {
+    padding-top: 10px;
+    color: #fff;
+    padding-right: 120px;
+
+}
+
+.card p {
+    color: hsl(215, 49%, 53%);
+}
+
+.p1 {
+    padding-right: 4px;
+}
+
+.p2 {
+    padding-right: 120px;
+}
+
+.cardImg {
+    height: 35vh;
+    width: 40vh;
+    border-radius: 8px;
+    position: relative;
+    left: 20px;
+    padding-right: 40px;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.nms{
+    color: #fff;
+}
+
+hr {
+    border: 1px solid hsl(215, 32%, 27%);
+
+}
+
+.avImg {
+    height: 20px;
+    width: 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.profPic {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    background-color: hsl(216, 50%, 16%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.p3 {
+    padding-left: 10px;
+}
+
+.price {
+    display: flex;
+}
+
+.price p {
+    color: hsl(178, 100%, 50%);
+    padding-left: 6px;
+}
+
+.time {
+    display: flex;
+}
